@@ -28,6 +28,8 @@
     
     <link rel="stylesheet" href="/css/style.css">
     
+    <link rel="stylesheet" href="/../fonts/iconfont3/iconfont.css">
+    
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
     
 
@@ -287,13 +289,13 @@
     </div>
 
                 
-                    <a class="menu-item" href="/archives">👀文章</a>
+                    <a class="menu-item" href="/archives">文章</a>
                 
-                    <a class="menu-item" href="/category">📚分类</a>
+                    <a class="menu-item" href="/category">分类</a>
                 
-                    <a class="menu-item" href="/tag">🏷️标签</a>
+                    <a class="menu-item" href="/tag">标签</a>
                 
-                    <a class="menu-item" href="/about">😎关于</a>
+                    <a class="menu-item" href="/about">关于</a>
                 
                 <input id="switch_default" type="checkbox" class="switch_default">
                 <label for="switch_default" class="toggleBtn"></label>
@@ -326,13 +328,13 @@
             </div>
             <div class="menu" id="mobile-menu">
                 
-                    <a class="menu-item" href="/archives">👀文章</a>
+                    <a class="menu-item" href="/archives">文章</a>
                 
-                    <a class="menu-item" href="/category">📚分类</a>
+                    <a class="menu-item" href="/category">分类</a>
                 
-                    <a class="menu-item" href="/tag">🏷️标签</a>
+                    <a class="menu-item" href="/tag">标签</a>
                 
-                    <a class="menu-item" href="/about">😎关于</a>
+                    <a class="menu-item" href="/about">关于</a>
                 
             </div>
         </div>
@@ -353,7 +355,10 @@
     }
 </script>
             <div class="main">
-                <div class="container">
+                <!-- 先要引用这个icon库 -->
+<link rel="stylesheet" href="../fonts/iconfont3/iconfont.css"> 
+<!-- 再进行代码编写 -->
+<div class="container">
     
     
 
@@ -364,30 +369,36 @@
             
                 <div class="post-meta">
                     
-                        Author: <a itemprop="author" rel="author" href="/">ztz's blog</a>
-                    
-
                     
                         <span class="post-time">
-                        Date: <a href="#">November 10, 2023&nbsp;&nbsp;21:45:50</a>
+                        <span class="iconfont icon-riqi"> <a href="#">November 10, 2023&nbsp;&nbsp;21:45:50</a></span>
                         </span>
-                    
+                    <br>
                     
                     
                         <span class="post-count">                        
-                    Words:   
-                        <a href="">8</a>                         
+                        <span class="iconfont icon-statistics"> 
+                        <a href="">8&nbsp;字</a>                         
+                        </span>
                         </span>    
                     
                     
                         <span class="post-count">
-                    Time:
-                        <a href="">1min</a> 
+                        <span class="iconfont icon-time">
+                        <a href="">1&nbsp;分钟</a> 
+                        </span>
                         </span>
                     
+
+                    <span id="/2023/11/10/TestBlog/" class="leancloud-visitors view" data-flag-title="TestBlog">
+                        <span class="post-meta-item-text"><span class="iconfont icon-eye"></span></span>
+                        <span class="leancloud-visitors-count">&nbsp;次</span>
+                    </span>
                 </div>
             
         </header>
+
+
 
         <div class="post-content">
             <p>这是一个测试文章</p>
@@ -454,18 +465,23 @@
         <span>© 2023
         &nbsp;ztz&#39;s blog &nbsp; &nbsp;|&nbsp; &nbsp;
           
-            <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <!-- 先要引用这个icon库 -->
+<link rel="stylesheet" href="../fonts/iconfont3/iconfont.css"> 
+<!-- 再进行代码编写 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 <span class="site-uv">
-  👨‍🎓 &nbsp; 
-  <i class="busuanzi-value" id="busuanzi_value_site_uv"><i class="fa fa-spinner fa-spin"></i></i>
+  <span class="iconfont icon-people"> 
+  <span class="busuanzi-value" id="busuanzi_value_site_uv"><span class="fa fa-spinner fa-spin"></span></span>
+  </span>
 </span>&nbsp;
 
 
 
 <span class="site-pv">
-  • &nbsp;👁️ 
-  <i class="busuanzi-value" id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></i>
+  &nbsp;<span class="iconfont icon-eye1"> 
+  <span class="busuanzi-value" id="busuanzi_value_site_pv"><span class="fa fa-spinner fa-spin"></span></span>
+  </span>
 </span>
   
         
