@@ -1276,8 +1276,10 @@ header label {
 }
 .post-copyright {
   margin-top: 5rem;
-  border-top: 1px solid #e8e8e8;
-  border-bottom: 1px solid #e8e8e8;
+  border: 1px solid #e8e8e8;
+  background-color: rgba(65,105,225,0.2);
+  border-left: 3px solid #1e90ff;
+  box-shadow: 5px 0 10px rgba(0,0,0,0.1);
 }
 .post-copyright a {
   color: #2d96bd;
@@ -1292,14 +1294,13 @@ header label {
   color: #fff;
 }
 .post-copyright .copyright-item {
-  margin: 5px 0;
+  margin: 5px 10px;
 }
 .post-copyright .lincese {
   font-weight: bold;
 }
 .dark-theme .post-copyright {
-  border-top: 1px solid #909196;
-  border-bottom: 1px solid #909196;
+  border: 1px solid #909196;
 }
 .post-content code,
 .post-content pre {
