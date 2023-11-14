@@ -514,15 +514,8 @@ template {
 [hidden] {
   display: none;
 }
-@font-face {
-  font-family: 'lanting';
-  src: url("../fonts/lanting/lanting.eot"); /* IE9 */
-  src: url("../fonts/lanting/lanting.eot?#iefix") format('embedded-opentype'), /* IE6-IE8 */ url("../fonts/lanting/lanting.woff2") format('woff2'), url("../fonts/lanting/lanting.woff") format('woff'), url("../fonts/lanting/lanting.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  font-weight: 300;
-  font-display: swap;
-}
 html {
-  font-family: 'Microsoft Jhenghei', Lantinghei SC, 'lanting', PingFang SC, Seguo UI, Microsoft Yahei, Arial;
+  font-family: Microsoft Yahei, 'Microsoft Jhenghei', Lantinghei SC, 'lanting', PingFang SC, Seguo UI, Arial;
 }
 html::-webkit-scrollbar {
   width: 8px;
@@ -625,10 +618,10 @@ a:hover {
   flex: 1;
 }
 .footer {
-  height: 4rem;
+  height: 2.5rem;
   width: 100%;
   text-align: center;
-  line-height: 4rem;
+  line-height: 1.75rem;
 }
 @charset "utf-8";
 
@@ -770,6 +763,52 @@ input[type="radio"]:not(:checked) + label:after {
 }
 
 
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1699846659755') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-people:before {
+  content: "\e736";
+}
+
+.icon-riqi:before {
+  content: "\e697";
+}
+
+.icon-biaoqian:before {
+  content: "\e674";
+}
+
+.icon-eye:before {
+  content: "\e76c";
+}
+
+.icon-pen:before {
+  content: "\e66d";
+}
+
+.icon-eye1:before {
+  content: "\e78f";
+}
+
+.icon-statistics:before {
+  content: "\e710";
+}
+
+.icon-time:before {
+  content: "\e834";
+}
+
+
 .header-logo a {
   padding: 0;
 }
@@ -794,6 +833,8 @@ header label {
 }
 .copyright {
   font-size: 14px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 .pagination {
   display: flex;
