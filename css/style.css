@@ -1088,7 +1088,7 @@ header label {
   color: #fff;
 }
 .post-content {
-  padding-top: 2rem;
+  padding-top: 1.1rem;
   text-align: justify;
 }
 .post-content h2,
@@ -1275,7 +1275,7 @@ header label {
   text-align: right;
 }
 .post-copyright {
-  margin-top: 5rem;
+  margin-top: 3rem;
   border: 1px solid #e8e8e8;
   background-color: rgba(65,105,225,0.2);
   border-left: 3px solid #1e90ff;
@@ -1375,6 +1375,12 @@ header label {
   padding: 1rem 0 1rem;
   display: flex;
   justify-content: space-between;
+}
+.post-tags a:hover {
+  color: #ef3982;
+}
+.dark-theme .post-tags a:hover {
+  color: #fff;
 }
 .post-nav:before,
 .post-nav:after {
