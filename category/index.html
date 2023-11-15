@@ -361,13 +361,13 @@
 
     <div class="container">
         <div class="post-wrap categories">
-            <h2 class="post-title" style="text-align: center; margin: 0; padding: 10px;">&nbsp;分类&nbsp;</h2>
+            <h2 class="post-title" style="text-align: center; margin: 0; padding: 10px;">分类</h2>
             <div class="categories-card">
                 
                     
                     <div class="card-item">
                         <div class="categories">
-                            <a href="/categories/test/">
+                            <a class="categories-link" href="/categories/test/">
                                 <h3>
                                     test
                                 </h3>
@@ -376,67 +376,21 @@
                                 
                                 
                                     <article class="archive-item">
-                                        <a class="archive-item-link"
-                                           href="/2023/11/10/TestBlog/">
-                                           <!-- 2022年4月4日 添加过长博文名省略 -->
+                                        <a class="archive-item-link" href="/2023/11/10/TestBlog/">
                                            <li>
-                                           TestBlog
-                                        </li>
-                                        <!-- 2022年4月4日 添加过长博文名省略 -->
+                                              TestBlog
+                                           </li>
                                         </a>
                                     </article>
                                 
                             
-                            
-                        </div>
-                    </div>
-                
-                    
-                    <div class="card-item">
-                        <div class="categories">
-                            <a href="/categories/blog/">
-                                <h3>
-                                    blog
-                                </h3>
-                            </a>
-                            
                                 
                                 
                                     <article class="archive-item">
-                                        <a class="archive-item-link"
-                                           href="/2023/11/10/hello-world/">
-                                           <!-- 2022年4月4日 添加过长博文名省略 -->
+                                        <a class="archive-item-link" href="/2023/11/10/hello-world/">
                                            <li>
-                                           Hello World
-                                        </li>
-                                        <!-- 2022年4月4日 添加过长博文名省略 -->
-                                        </a>
-                                    </article>
-                                
-                            
-                            
-                        </div>
-                    </div>
-                
-                    
-                    <div class="card-item">
-                        <div class="categories">
-                            <a href="/categories/blog/test/">
-                                <h3>
-                                    test
-                                </h3>
-                            </a>
-                            
-                                
-                                
-                                    <article class="archive-item">
-                                        <a class="archive-item-link"
-                                           href="/2023/11/10/hello-world/">
-                                           <!-- 2022年4月4日 添加过长博文名省略 -->
-                                           <li>
-                                           Hello World
-                                        </li>
-                                        <!-- 2022年4月4日 添加过长博文名省略 -->
+                                              Hello World
+                                           </li>
                                         </a>
                                     </article>
                                 
@@ -460,6 +414,17 @@
         overflow: hidden;
         /*文本溢出时，是否....*/
         text-overflow: ellipsis;
+    }
+</style>
+
+<style>
+    .more-link {
+        &:hover {
+            transform: translateX(-1px);
+            font-size: 1.1em;
+            color: #ef3982;
+        }
+            
     }
 </style>
             </div>

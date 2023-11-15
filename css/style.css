@@ -974,7 +974,7 @@ header label {
   white-space: nowrap;
 }
 .archive-item-link:hover {
-  color: #2d96bd;
+  color: #ef3982;
   background-color: transparent;
 }
 .dark-theme .archive-item-link {
@@ -1020,6 +1020,9 @@ header label {
 .post-wrap .categories-card .card-item .categories {
   overflow: hidden;
 }
+.post-wrap .categories-card .card-item .categories-link:hover {
+  color: #ef3982;
+}
 .tag-cloud-tags {
   margin: 10px 0;
   padding-top: 2em;
@@ -1036,7 +1039,7 @@ header label {
 .tag-cloud-tags a:active,
 .tag-cloud-tags a:focus,
 .tag-cloud-tags a:hover {
-  color: #2d96bd;
+  color: #ef3982;
   transform: scale(1.1);
 }
 .dark-theme .tag-cloud-tags a:active,
